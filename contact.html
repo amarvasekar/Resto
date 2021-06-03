@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Restaurant | Template</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <link rel="stylesheet"
+        href="https://preview.colorlib.com/theme/allfood/assets/css/A.bootstrap.min.css+owl.carousel.min.css+slicknav.css+animate.min.css+magnific-popup.css+fontawesome-all.min.css+themify-icons.css+themify-icons.css+slick.css+nice-select.css,Mcc.HUq-EYOsZT.css.pagespeed.cf.BY73S6l37h.css" />
+    <link rel="stylesheet" href="assets/css/A.style.css.pagespeed.cf.5EwCEVpnlw.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <script data-pagespeed-no-defer>
+                        //<![CDATA[
+                        ; (function () {
+                            for (
+                                var g =
+                                    'function' == typeof Object.defineProperties
+                                        ? Object.defineProperty
+                                        : function (b, c, a) {
+                                            if (a.get || a.set)
+                                                throw new TypeError(
+                                                    'ES3 does not support getters and setters.',
+                                                )
+                                            b != Array.prototype &&
+                                                b != Object.prototype &&
+                                                (b[c] = a.value)
+                                        },
+                                h =
+                                    'undefined' != typeof window && window === this
+                                        ? this
+                                        : 'undefined' != typeof global && null != global
+                                            ? global
+                                            : this,
+                                k = ['String', 'prototype', 'repeat'],
+                                l = 0;
+                                l < k.length - 1;
+                                l++
+                            ) {
+                                var m = k[l]
+                                m in h || (h[m] = {})
+                                h = h[m]
+                            }
+                            var n = k[k.length - 1],
+                                p = h[n],
+                                q = p
+                                    ? p
+                                    : function (b) {
+                                        var c
+                                        if (null == this)
+                                            throw new TypeError(
+                                                "The 'this' value for String.prototype.repeat must not be null or undefined",
+                                            )
+                                        c = this + ''
+                                        if (0 > b || 1342177279 < b)
+                                            throw new RangeError('Invalid count value')
+                                        b |= 0
+                                        for (var a = ''; b;)
+                                            if ((b & 1 && (a += c), (b >>>= 1))) c += c
+                                        return a
+                                    }
+                            q != p &&
+                                null != q &&
+                                g(h, n, { configurable: !0, writable: !0, value: q })
+                            var t = this
+                            function u(b, c) {
+                                var a = b.split('.'),
+                                    d = t
+                                a[0] in d || !d.execScript || d.execScript('var ' + a[0])
+                                for (var e; a.length && (e = a.shift());)
+                                    a.length || void 0 === c
+                                        ? d[e]
+                                            ? (d = d[e])
+                                            : (d = d[e] = {})
+                                        : (d[e] = c)
+                            }
+                            function v(b) {
+                                var c = b.length
+                                if (0 < c) {
+                                    for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d]
+                                    return a
+                                }
+                                return []
+                            }
+                            function w(b) {
+                                var c = window
+                                if (c.addEventListener) c.addEventListener('load', b, !1)
+                                else if (c.attachEvent) c.attachEvent('onload', b)
+                                else {
+                                    var a = c.onload
+                                    c.onload = function () {
+                                        b.call(this)
+                                        a && a.call(this)
+                                    }
+                                }
+                            }
+                            var x
+                            function y(b, c, a, d, e) {
+                                this.h = b
+                                this.j = c
+                                this.l = a
+                                this.f = e
+                                this.g = {
+                                    height:
+                                        window.innerHeight ||
+                                        document.documentElement.clientHeight ||
+                                        document.body.clientHeight,
+                                    width:
+                                        window.innerWidth ||
+                                        document.documentElement.clientWidth ||
+                                        document.body.clientWidth,
+                                }
+                                this.i = d
+                                this.b = {}
+                                this.a = []
+                                this.c = {}
+                            }
+                            function z(b, c) {
+                                var a,
+                                    d,
+                                    e = c.getAttribute('data-pagespeed-url-hash')
+                                if ((a = e && !(e in b.c)))
+                                    if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1
+                                    else {
+                                        d = c.getBoundingClientRect()
+                                        var f = document.body
+                                        a =
+                                            d.top +
+                                            ('pageYOffset' in window
+                                                ? window.pageYOffset
+                                                : (document.documentElement || f.parentNode || f)
+                                                    .scrollTop)
+                                        d =
+                                            d.left +
+                                            ('pageXOffset' in window
+                                                ? window.pageXOffset
+                                                : (document.documentElement || f.parentNode || f)
+                                                    .scrollLeft)
+                                        f = a.toString() + ',' + d
+                                        b.b.hasOwnProperty(f)
+                                            ? (a = !1)
+                                            : ((b.b[f] = !0),
+                                                (a = a <= b.g.height && d <= b.g.width))
+                                    }
+                                a && (b.a.push(e), (b.c[e] = !0))
+                            }
+                            y.prototype.checkImageForCriticality = function (b) {
+                                b.getBoundingClientRect && z(this, b)
+                            }
+                            u(
+                                'pagespeed.CriticalImages.checkImageForCriticality',
+                                function (b) {
+                                    x.checkImageForCriticality(b)
+                                },
+                            )
+                            u('pagespeed.CriticalImages.checkCriticalImages', function () {
+                                A(x)
+                            })
+                            function A(b) {
+                                b.b = {}
+                                for (
+                                    var c = ['IMG', 'INPUT'], a = [], d = 0;
+                                    d < c.length;
+                                    ++d
+                                )
+                                    a = a.concat(v(document.getElementsByTagName(c[d])))
+                                if (a.length && a[0].getBoundingClientRect) {
+                                    for (d = 0; (c = a[d]); ++d) z(b, c)
+                                    a = 'oh=' + b.l
+                                    b.f && (a += '&n=' + b.f)
+                                    if ((c = !!b.a.length))
+                                        for (
+                                            a += '&ci=' + encodeURIComponent(b.a[0]), d = 1;
+                                            d < b.a.length;
+                                            ++d
+                                        ) {
+                                            var e = ',' + encodeURIComponent(b.a[d])
+                                            131072 >= a.length + e.length && (a += e)
+                                        }
+                                    b.i &&
+                                        ((e = '&rd=' + encodeURIComponent(JSON.stringify(B()))),
+                                            131072 >= a.length + e.length && (a += e),
+                                            (c = !0))
+                                    C = a
+                                    if (c) {
+                                        d = b.h
+                                        b = b.j
+                                        var f
+                                        if (window.XMLHttpRequest) f = new XMLHttpRequest()
+                                        else if (window.ActiveXObject)
+                                            try {
+                                                f = new ActiveXObject('Msxml2.XMLHTTP')
+                                            } catch (r) {
+                                                try {
+                                                    f = new ActiveXObject('Microsoft.XMLHTTP')
+                                                } catch (D) { }
+                                            }
+                                        f &&
+                                            (f.open(
+                                                'POST',
+                                                d +
+                                                (-1 == d.indexOf('?') ? '?' : '&') +
+                                                'url=' +
+                                                encodeURIComponent(b),
+                                            ),
+                                                f.setRequestHeader(
+                                                    'Content-Type',
+                                                    'application/x-www-form-urlencoded',
+                                                ),
+                                                f.send(a))
+                                    }
+                                }
+                            }
+                            function B() {
+                                var b = {},
+                                    c
+                                c = document.getElementsByTagName('IMG')
+                                if (!c.length) return {}
+                                var a = c[0]
+                                if (!('naturalWidth' in a && 'naturalHeight' in a)) return {}
+                                for (var d = 0; (a = c[d]); ++d) {
+                                    var e = a.getAttribute('data-pagespeed-url-hash')
+                                    e &&
+                                        ((!(e in b) &&
+                                            0 < a.width &&
+                                            0 < a.height &&
+                                            0 < a.naturalWidth &&
+                                            0 < a.naturalHeight) ||
+                                            (e in b && a.width >= b[e].o && a.height >= b[e].m)) &&
+                                        (b[e] = {
+                                            rw: a.width,
+                                            rh: a.height,
+                                            ow: a.naturalWidth,
+                                            oh: a.naturalHeight,
+                                        })
+                                }
+                                return b
+                            }
+                            var C = ''
+                            u('pagespeed.CriticalImages.getBeaconData', function () {
+                                return C
+                            })
+                            u('pagespeed.CriticalImages.Run', function (b, c, a, d, e, f) {
+                                var r = new y(b, c, a, e, f)
+                                x = r
+                                d &&
+                                    w(function () {
+                                        window.setTimeout(function () {
+                                            A(r)
+                                        }, 0)
+                                    })
+                            })
+                        })()
+
+                        pagespeed.CriticalImages.Run(
+                            '/mod_pagespeed_beacon',
+                            'https://preview.colorlib.com/theme/allfood/contact.html',
+                            '-ilGEe-FWC',
+                            true,
+                            false,
+                            'h6GhmugYd2E',
+                        )
+              //]]>
+                    </script>
+                    <img src="data:image/webp;base64,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"
+                        alt="" data-pagespeed-url-hash="3353148309"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="data:image/webp;base64,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"
+                                        alt="" data-pagespeed-url-hash="3353148309"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-10">
+                            <div class="menu-main d-flex align-items-center justify-content-end">
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="menu.html">Menu</a></li>
+                                            <li>
+                                                <a href="blog.html">Blog</a>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!-- <div class="header-right-btn f-right d-none d-lg-block ml-20">
+                      <a href="contact.html" class="border-btn header-btn">Order Online</a>
+                    </div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slider-area">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2">
+                                <h2>Contact Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="d-none d-sm-block mb-5 pb-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2857.206807451228!2d75.36734846246144!3d17.65507098795347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5f1b772f119d4472!2sShri%20Vithal%20Education%20%26%20Research%20Institute!5e1!3m2!1sen!2sin!4v1622729473245!5m2!1sen!2sin"
+                        width="100%" height="450" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="contact-title">Get in Touch</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <form class="form-contact contact_form" action="" method="post" id="contactForm" novalidate>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30"
+                                            rows="9" onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter Message'"
+                                            placeholder=" Enter Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name" id="name" type="text"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter your name'"
+                                            placeholder="Enter your name" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="email" id="email" type="email"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter email address'" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input class="form-control" name="subject" id="subject" type="text"
+                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
+                                            placeholder="Enter Subject" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3>Pandharpur, Maharashtra.</h3>
+                                <p>India, 413304</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon">
+                                <i class="ti-tablet"></i>
+                            </span>
+                            <div class="media-body">
+                                <h3>+91 99 22 3443</h3>
+                                <p>Mon to Fri 9am to 6pm</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <p>Send us your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-area section-bg" data-background="assets/img/gallery/section_bg02.png"
+            style="background-image: url('./assets/img/gallery/section_bg02.png');">
+            <div class="container">
+                <div class="footer-top footer-padding">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-logo">
+                                    <a href="index.html">
+                                        <img src="data:image/webp;base64,UklGRs4HAABXRUJQVlA4TMIHAAAvg0AUEA+noG0bxijHn8sfg/kPAklbePdkEc6EjQACQJgIIAIRkgAQABCBUAkHAuFI4AAndAIATgBA6ISd8Iata9sWt61eWa5aKWrVMDPzuMxhVBwGhTkZlXnCDKbGEGYlitvuHVDK3E4Y5U6YTM9fsb/v/T6P5qhHEf13IElS2+weckYDIso/IA/7mXFB8pB7fLZhjpHlPm27FSHykCMPAODf1S1dpn2tJETUshl5xU+n6wXcW5LtJuysvSGigROoFXnFgysh+kx310gD2w8EiEbMo0ktyDMeUyPF/YkucbYor08Ll5HZm6iRZ84xUQ5scuVb/S8UZ5N/S9y38g2iyHTyjGfIwrHGDWfMfVjsp0YHTN/WcUSRDc+QdzyHiV/bNhAw63PUpVap2b5ti4giu1qRlxxn4lLvBuE9dxBFfup9frZ/x1qiSHIAecsfM/HvKw2A6/gbtvno7duz/cXFPmp6ajR5zRYTD98WSVq9NGrCtIULp00Y9ZJ4qY3r9WnKo1n+4kSAmv8cJ+95CxejX1tS9vtjsH78e9mSZQ/qku+T6onZxd89V5d2kAfty4PC9385lL/+0/fe+3R9/qFf7gsoVxf2Kq2ZGDhgt6xL3wbIi/YXM5/Vlg5T9rRWVi2qAOCrFgfS3erSuWZE3ozjTFSOUDLlPAE2LLpbC9RUT6K2f97pTd60sZ99r/IdVQP5SaQZOegSgKOXaoaQJ91xL1DxwddcZm/xVINEmLzQESyMO8CPHcmDDn70CDcWhiiUZOLOiyzXSumqnMMq6noFD/HooyB5zTl/oWpNhIgodJKJ2305sN0yTFWwbxo7m6ypwl85HusD71ehvKcEETnNxOUODBpXI2fv4niAqGc5qt73k3fcshxPlnEL2chZyL61b38yub9087Lx98H5tHChspY9QXlL8ooHXMIf/XiQ5j9D9j9j3npr2Ji5K06w6VRE4uv3By55ZbIceg+HIwqSFwqqIXufT0Ap4lJJiLtSh3FvKHnBuZVYwTen7Anf//3hy/9A9hdERKMYjHursvkGvAKVud5YPs5nMbImnz8xzEfUlovhRC8/BFCVjI8wnh124vxkfg80HzUTKdMeVYPZ/G7lu1OvCwRsOO1fvANgh7x0f/3Ud6+xqLNRM4oy69cfIcZRhDdezfURqeOn+rSUnS5yr24McxgxPHqdMukuFfiEXaf/U9SEhep6GYxrJit4mxT905+j+AQVXTI5L/yMQh9DMS09Ub1glFNVVKP5pqdx16MQP2dwvijAyaeYAnz+dy81V+S43Ak7aTD3+vtzptqeOokCypQnoaId07mLTjbX2kvKw9EPz2owNT9Z5Gf2/hWYRJlx6zsYwq3ckiFNuCNSHAloIIWSxUwMwZ3WlBHvRj7DsFU3Df7Sv7pWjANBrdjKMORjD2XCI3CFmRmWfx/WQxtZiSPPv3pNjP811eAKf7+cabJXMILcd+A8RjHVcLmd/g784avU9nsx/tTJrN1lpsCjcD4Dy/t5SDIluPmSHtnsGmmX1Ug6480XNNheusnUWhLzyG2HryFHzqH8XT2ypdxGL3BAjIcjNejeLZczyMG1MLns5dglIywo17oP51sFoHKofJsqKQ3T89V8WeULZIRdWE7uOvsi+ssnTffSHZD4rU1YXleu9avHyLR81v64lE2uehz3efHnOliNkwBqxrIkzeSZc4968Pi8mPt4HLnqbzBcIuh9U6f19BEKOlV189SR4v/KcTx8U97oDcc37s7TuCi3vb2LNajGCuvmuJLmzUop7G4qoEV75DZ5Ea7O23GslBcG6aC6iYq7qG0605okpFXnDaa7MvsvV2+EnIW8DF9nKZFai5vMY1rN+gs5HqrWz9Y6eWOAs+Seg+s/Y+48tVGeMr6+3msaa+H6PlgvebXiB20+lgk+Wx+k/46cB8CUcsog/CAAttuoUQAwGyL+5qCdac1ZqDKzP98JADu9qQHKos4pgsoLZVRHwGjsSS2EykVdq5XiXwOxBkjRKDOr6q5UrKs8gHnpdRUT9a5Vinmd2gk4jd2TYQGAZehRmA5gaau2NxGV6ake1DQBRF1TTAY3dSgSAoKtqzJhFtWTBcDoLLx04yt5RFGOIqqmMGUKTYkDwH4t2YBDlAIct5QSchJgbDWFI1A0TmhqPwl+Q0cGAEv8edQdGdL40dgBYOhS6L79BvcXmUJMfkJ22lJARAGk5CYX06PQV1xc7FboKMWBOO4oBiDBlFaLogGqCHMoChk8yaCMHjSkW9DgNR2ZPInligxIQ5jU8jQoGqJrQaK50FFKnqEaC7wuyI2fmUQ7tcfnuRS4qKPOAFJcmQwXlNlxCRcDM6EhAdYipmNamR6f5Z6VcrTn65nHzqs8TWrCUa5ebXdEhinPU0oKpjJTkqYpi3qM/ks2Yg0HM8lTjgFAQk+DHOQx48POxiKkZ9WZiPS0M2GgsyCbOttiNZCnZdhwBlEMSHWmBGxBppNIkKQ6CILtxECw4Rh1iiImYHroxaBUgiynMUxK7YxiUGdBMTjECQSL6mWRnUewHIvqYU0vHWDSIMQwiEzbhPjCgGnvTFjswRQUo0SdgMY0KAVnkJekOBjCIYqo4cDg3lbIslPkmGTnefdtx4mJ3dCGxf1MIbOzkxcDbMOFghE="
+                                            alt="" data-pagespeed-url-hash="220807005"
+                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Navigation</h4>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Testimonial</a></li>
+                                        <li><a href="#">Categories</a></li>
+                                        <li><a href="#">Contacts</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Useful Links</h4>
+                                    <ul>
+                                        <li><a href="#">Registration</a></li>
+                                        <li><a href="#">Login</a></li>
+                                        <li><a href="#">Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Instagram Feed</h4>
+                                </div>
+                                <div class="instagram-gellay">
+                                    <ul class="insta-feed">
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/img/gallery/xinstagram1.png.pagespeed.ic.ljVxX_L8YD.webp"
+                                                    alt="" data-pagespeed-url-hash="916830776"
+                                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/img/gallery/xinstagram2.png.pagespeed.ic.zkqvKwx60s.webp"
+                                                    alt="" data-pagespeed-url-hash="1211330697"
+                                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/img/gallery/xinstagram3.png.pagespeed.ic.Grlow1jndg.webp"
+                                                    alt="" data-pagespeed-url-hash="1505830618"
+                                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/img/gallery/xinstagram4.png.pagespeed.ic.GuS4bh2__J.webp"
+                                                    alt="" data-pagespeed-url-hash="1800330539"
+                                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/img/gallery/xinstagram5.png.pagespeed.ic.Mq5pJ8jteN.webp"
+                                                    alt="" data-pagespeed-url-hash="2094830460"
+                                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/img/gallery/xinstagram6.png.pagespeed.ic.MS04xptdtH.webp"
+                                                    alt="" data-pagespeed-url-hash="2389330381"
+                                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="footer-copy-right">
+                                <p>
+                                    Copyright &copy;
+                                    <script data-cfasync="false"
+                                        src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                                    <script>
+                                        document.write(new Date().getFullYear())
+                                    </script>
+                                    All rights reserved | This template is made with
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    by
+                                    <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="footer-social f-right">
+                                <span>Follow Us</span>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="back-top">
+        <a title="Go to Top" href="#"><i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js+bootstrap.min.js+jquery.slicknav.min.js.pagespeed.jc.RtG6BobGFO.js"></script>
+    <script>
+        eval(mod_pagespeed_6cAXC22XoO)
+    </script>
+    <script>
+        eval(mod_pagespeed_Vo1OhLvRK6)
+    </script>
+
+    <script>
+        eval(mod_pagespeed_a0X8vMgQy4)
+    </script>
+
+    <script src="./assets/js/owl.carousel.min.js+slick.min.js.pagespeed.jc.IkDjtFWnR-.js"></script>
+    <script>
+        eval(mod_pagespeed_uF0PNhMZ85)
+    </script>
+    <script>
+        eval(mod_pagespeed_e4CG_RunTi)
+    </script>
+
+    <script
+        src="./assets/js/wow.min.js+animated.headline.js+jquery.nice-select.min.js+jquery.sticky.js+jquery.magnific-popup.js+contact.js+jquery.form.js.pagespeed.jc.pug-__sHSM.js"></script>
+    <script>
+        eval(mod_pagespeed_UwBnou$3yQ)
+    </script>
+    <script>
+        eval(mod_pagespeed_xbPpRUVyHC)
+    </script>
+
+    <script>
+        eval(mod_pagespeed_heK9DSEM1M)
+    </script>
+    <script>
+        eval(mod_pagespeed_3DYbWXrja8)
+    </script>
+    <script>
+        eval(mod_pagespeed_i4U3iMYFjv)
+    </script>
+
+    <script>
+        eval(mod_pagespeed_97CO0EZ$M_)
+    </script>
+    <script>
+        eval(mod_pagespeed_q0NvAL_Ph_)
+    </script>
+    <script
+        src="./assets/js/jquery.validate.min.js+mail-script.js+jquery.ajaxchimp.min.js+plugins.js+main.js.pagespeed.jc.2lRCVBt5AZ.js"></script>
+    <script>
+        eval(mod_pagespeed_uVNos43Opf)
+    </script>
+    <script>
+        eval(mod_pagespeed_QvJyUDh33f)
+    </script>
+    <script>
+        eval(mod_pagespeed_ttPe$kKuYY)
+    </script>
+
+    <script>
+        eval(mod_pagespeed_E$w9XY9wq7)
+    </script>
+    <script>
+        eval(mod_pagespeed_dUyAeRAQSF)
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag('js', new Date())
+
+        gtag('config', 'UA-23581568-13')
+    </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"rayId":"658575182bd20e48","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.5.2","si":10}'></script>
+</body>
+
+</html>
